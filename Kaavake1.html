@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<head>
+   
+    <title>kaavake</title>
+
+
+<style>
+
+table {
+	background-color:#ffe6e6;
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 50%
+}
+table, td, th {
+  width: 50%;
+  border: 1px solid black;}
+
+.otsikot {
+	font-family: arial;
+
+
+}
+
+td {
+	height: 50px;
+	vertical-align:bottom;
+}
+
+
+ td {
+	padding: 6px;
+	text-align: left;
+
+}
+</style>
+</head>
+<body>
+
+<form action="mailto:sanna.pakarinen@edu.keuda.fi" method="post">
+<table>
+	<tbody>
+		<tr>
+			<th colspan="2">
+				<h2> Tiedon keruu!</h2>
+			</th>
+		</tr>
+		<tr>
+			<td class="otsikot">
+				Nimi:
+			</td>
+			<td>
+				<input type="text" name="Kirjoita nimesi" value="Kirjoita nimesi">
+			</td>
+		</tr>
+		<tr>
+			<tr>
+			<td class="otsikot">
+				Sähköposti:
+			</td>
+			<td>
+				<input type="text" name="Sähköpostisi" value="Kirjoita sähköpostisi">
+			</td>
+		</tr>
+		<tr>
+			<td class="otsikot">
+				Sijainti:
+				</td>
+				<td>
+				
+				<select name:"kaupungit">
+				<option value="Helsinki">Helsinki</option>
+				<option value="Espoo">Espoo</option>
+				<option value="Vantaa">Vantaa</option>
+				<option value="Jotain parempaa">Jotain parempaa<option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				
+			<td class="otsikot">
+				Sukupuoli:
+				</td>
+				<td>
+
+				<div id="jotakin"><input type="radio" name="gender"
+					value="female">Nainen<br>
+				<input type="radio" name="gender"
+					value="male">Mies<br>
+				<input type="radio" name = "gender"
+					value="other">Jotain siltä väliltä
+				</div>
+				</td>
+			</tr>
+			<tr>
+			<td>
+
+			<td class="otsikot">
+			Syntymäpäivä:
+			
+			<input type="date" name="bday">
+				</td>
+			</tr>
+			<tr>
+			<td>
+
+			<td class="otsikot">
+			Arvosana koulutukselle:
+			
+			<input type="number" name="numero">
+				</td>
+			</tr>
+			<tr>
+			<td>
+
+
+		<td class="otsikot">	
+		Tulen kouluun:
+	
+		<div id="jotakin"><input type="radio" name="vehicle"
+			value="bussi">Bussilla<br>
+			<input type="radio" name="vehicle"
+			value="ratikka">Ratikalla<br>
+			<input type="radio" name="vehicle"
+			value="jalat">Kävellen<br>
+			<input type="radio" name="vehicle"
+			value="auto">Autolla<br>
+			<input type="radio" name="vehicle"
+			value="metro">Metrolla<br>
+			<input type="radio" name="vehicle"
+			value="Pyörä">Pyörällä<br>
+			<input type="radio" name="vehicle"
+			value="Juna">Junalla<br>
+			<input type="radio" name="vehicle"
+			value="Joltain muuta">Jollain muulla<br>
+		</div>
+			</td>
+			</tr>
+			<tr>
+			<td>
+
+			<td class="otsikot">
+			Kommentit:
+			<textarea name="message" rows="10" cols="30">
+			</textarea>
+			<input type="submit">
+			
+			</td></tr>
+</form>
+</tbody>
+</table>
+
+
+
+</body>
+</html>
